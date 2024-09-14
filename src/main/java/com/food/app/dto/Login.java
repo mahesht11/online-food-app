@@ -1,17 +1,14 @@
 package com.food.app.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+@Setter
+@Getter
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Login {
-
-    private String email;
-    private String password;
 
     public String getEmail() {
         return email;
@@ -28,4 +25,8 @@ public class Login {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    private String email;
+    private String password;
+
 }
