@@ -1,6 +1,5 @@
 package com.food.app.dto;
 
-import com.food.app.model.UserRole;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
